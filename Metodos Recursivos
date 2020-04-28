@@ -34,5 +34,16 @@ Imprime los numeros desde 1 a hasta n
         
     }
     
-    
+   /**
+   Calcula la potencia de un entero x a la n
+   **\
+   
+    public int PotenciaDeUnNumero(int base, int expo) {
+        if (expo == 0) {
+            return 1;
+        }
+
+        return base * PotenciaDeUnNumero(base, expo - 1);
+
+    }
     
